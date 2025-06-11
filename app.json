@@ -1,0 +1,19 @@
+{
+  "name": "kitsunadata-docs",
+  "description": "Kitsuna Data documentation site built with MkDocs",
+  "repository": "https://github.com/kot-behemoth/kitsunadata-docs",
+  "buildpacks": [
+    {
+      "url": "https://github.com/dokku/buildpack-nginx"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    }
+  ],
+  "scripts": {
+    "dokku": {
+      "predeploy": "mkdocs build",
+      "postdeploy": "echo 'MkDocs site deployed successfully'"
+    }
+  }
+}
