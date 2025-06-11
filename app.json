@@ -4,10 +4,10 @@
   "repository": "https://github.com/kot-behemoth/kitsunadata-docs",
   "buildpacks": [
     {
-      "url": "https://github.com/dokku/buildpack-nginx"
+      "url": "https://github.com/heroku/heroku-buildpack-python"
     },
     {
-      "url": "https://github.com/heroku/heroku-buildpack-python"
+      "url": "https://github.com/dokku/buildpack-nginx"
     }
   ],
   "scripts": {
