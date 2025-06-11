@@ -2,14 +2,16 @@
   "name": "kitsunadata-docs",
   "description": "Kitsuna Data documentation site built with MkDocs",
   "repository": "https://github.com/kot-behemoth/kitsunadata-docs",
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-python"
-    },
-    {
-      "url": "https://github.com/dokku/buildpack-nginx"
-    }
-  ],
+  "healthchecks": {
+    "web": [
+      {
+        "content": "Static Page",
+        "name": "check-1",
+        "path": "/",
+        "type": "startup"
+      }
+    ]
+  },
   "scripts": {
     "dokku": {
       "predeploy": "mkdocs build",
