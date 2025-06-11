@@ -14,7 +14,7 @@
   },
   "scripts": {
     "dokku": {
-      "predeploy": "mkdocs build",
+      "predeploy": "cd /app/www && mkdocs build",
       "postdeploy": "echo 'MkDocs site deployed successfully'"
     }
   }
