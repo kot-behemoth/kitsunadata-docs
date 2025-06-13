@@ -1,8 +1,8 @@
 ---
-title: Single host (Dokku)
+title: Deployment
 ---
 
-# Deplying to single host (Dokku)
+# Deploying to single host (Dokku)
 
 Kitsuna reocmmends using [Dokku](https://dokku.com) for simple deployments to single-host environments.
 
