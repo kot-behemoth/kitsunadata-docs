@@ -6,6 +6,8 @@ repo_name: kot-behemoth/kitsunadata
 
 theme:
   name: material
+  features:
+    - navigation.sections
 
 markdown_extensions:
   - admonition
