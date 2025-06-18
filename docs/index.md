@@ -15,6 +15,22 @@ This project is an attempt to stitch together a set of solid and reliable open-s
 
     The project is very much in the pre-alpha stage. This is more of an experiment and is not meant for produciton workloads.
 
+### Main Features
+
+1. **🧪 From laptop to production in minutes** - Develop locally with DuckDB, deploy with the same code. No more "it works on my machine" problems.
+
+1. **⚡ Lightning-fast analytics on any data size** - DuckDB's column-oriented design handles gigabytes of data on modest hardware. Query billions of rows in seconds.
+
+1. **📊 Beautiful dashboards** - Drag-and-drop dataviz with Metabase. Perfect for everyone - tech and non-tech alike.
+
+1. **💸 Scale without breaking the bank** - Enterprise-grade data stack for as little as $30/month. DuckDB + SQLMesh's efficiency means less compute costs than Snowflake or BigQuery.
+
+1. **🔄 30+ ready-to-use integrations** - Instant integrations with dlt for Stripe, GitHub, Salesforce, and more. Connect your SaaS tools with minimal code.
+
+1. **🤖 Just ask your DB** - Ask questions in plain English with DuckDB's MCP. Get immediate answers without writing complex queries.
+
+1. **🔍 End-to-end data lineage** - SQLMesh tracks transformations from raw to gold data. Understand exactly where metrics come from and debug easily.
+
 ### Goals
 
 - Local-first development for the entire stack.
