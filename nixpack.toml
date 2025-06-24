@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["python312"]
+
+[phases.install]
+cmds = ["python -m pip install uv", "uv sync"]
+
+[phases.build]
+cmds = ["uv run mkdocs build"]
+
+[start]
+static = "site"
