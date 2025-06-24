@@ -2,10 +2,7 @@
 nixPkgs = ["python312"]
 
 [phases.install]
-cmds = ["python -m pip install uv", "uv sync"]
-
-[phases.build]
-cmds = ["uv run mkdocs build -d dist"]
+cmds = ["python -m pip install uv", "uv sync", "uv run mkdocs build -d dist"]
 
 [start]
 static = "dist"
