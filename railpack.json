@@ -1,4 +1,5 @@
 {
+  "language": "staticfile",
   "build": {
     "commands": [
       "uv sync",
